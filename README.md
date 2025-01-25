@@ -101,7 +101,3 @@ There’s a special method, **repr**, which can be defined on a class. It is use
 ### Testing The RandomWordFinder
 
 Making a doctest for classes like these can be a bit tricky — since they return a random word, how can you be sure what the test would return? Think of a way you could write doctests for these, then write some!
-
-```
-
-```
