@@ -12,7 +12,7 @@ Classes are a great way to combine data and functionality. We’ll use a class t
 
 ​ And then every time you ask for a new number, it should return the next sequential number:
 
-````
+```
 >>> serial.generate()
 100
 
@@ -21,15 +21,15 @@ Classes are a great way to combine data and functionality. We’ll use a class t
 
 >>> serial.generate()
 102
-​```
+```
 
 You should provide a function to reset the number back to the original start number:
 
-````
-
+```
 > > > serial.reset()
 
-> > > serial.generate() 100 ​```
+> > > serial.generate() 100 ​
+```
 
 We’ve given you a starter file, serial.py, with doctests for this functionality. Add the missing functionality. Do make sure you put in docstrings for your methods!
 
@@ -101,3 +101,7 @@ There’s a special method, **repr**, which can be defined on a class. It is use
 ### Testing The RandomWordFinder
 
 Making a doctest for classes like these can be a bit tricky — since they return a random word, how can you be sure what the test would return? Think of a way you could write doctests for these, then write some!
+
+```
+
+```
