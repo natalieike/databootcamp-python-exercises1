@@ -32,10 +32,9 @@ class WordFinder:
             self.wordList = list(f)
 
     def random(self):
-        randomNum = random.randint(0, len(self.wordList))
+        randomNum = random.randint(0, len(self.wordList) -1 )
         return self.wordList[randomNum].strip()
 
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
-    
